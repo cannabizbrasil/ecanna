@@ -53,7 +53,7 @@ const tiers = [
 
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
@@ -121,7 +121,7 @@ export default function Price() {
                             </div>
 
                             <p className="mt-6 flex items-baseline gap-x-1">
-                                <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
+                                <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value as keyof typeof tier.price] as string}</span>
                                 <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
                             </p>
 
