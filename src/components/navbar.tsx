@@ -13,11 +13,11 @@ import {
 
 
 const navigations = [
-    { name: 'Analytics', href: '#' },
-    { name: 'Engagement', href: '#' },
-    { name: 'Security', href: '#' },
-    { name: 'Integrations', href: '#' },
-    { name: 'Automations', href: '#' },
+    { name: 'Menu', href: '#' },
+    { name: 'Menu', href: '#' },
+    { name: 'Menu', href: '#' },
+    { name: 'Menu', href: '#' },
+
 ]
 
 function classNames(...classes: any) {
@@ -28,7 +28,7 @@ export default function NavBar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="bg-black ">
+        <header className="bg-verde ">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
@@ -53,22 +53,22 @@ export default function NavBar() {
                         className=" inline-flex rounded-md ml-8 text-white"
                         onClick={() => setMobileMenuOpen(true)}
                     >
-                        <span className="sr-only my-auto">Open main menu</span>
+                        <span className="sr-only my-auto">abrir menu</span>
                         <Bars3Icon className="h-8 w-8" aria-hidden="true" />
                     </button>
                 </div>
             </nav>
             <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-verde px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
 
                         <button
                             type="button"
-                            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                            className="-m-2.5 rounded-md p-2.5 text-white"
                             onClick={() => setMobileMenuOpen(false)}
                         >
-                            <span className="sr-only">Close menu</span>
+                            <span className="sr-only">fechar menu</span>
                             <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>
