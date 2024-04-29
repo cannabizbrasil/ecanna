@@ -20,7 +20,7 @@ const navigations = [
     { name: 'Automations', href: '#' },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: any) {
     return classes.filter(Boolean).join(' ')
 }
 
