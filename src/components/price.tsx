@@ -14,10 +14,11 @@ const tiers = [
         price: { monthly: 'R$0', annually: 'R$0' },
         description: 'The essentials to provide your best work for clients.',
         features: [
-            'Carteirinha digital oficial',
-            'Upload de até 1 documento',
             'Upload ilimitado de documentos',
-            'Carteirinha física',
+            'Suporte ilimitado de ',
+            'Carteirinha digital',
+            'Carteirinha fisica',
+
         ],
         mostPopular: false,
     },
@@ -28,10 +29,10 @@ const tiers = [
         price: { monthly: 'R$9', annually: 'R$99' },
         description: 'A plan that scales with your rapidly growing business.',
         features: [
-            'Carteirinha digital oficial',
-            'Upload de até 1 documento',
             'Upload ilimitado de documentos',
-            'Carteirinha física',
+            'Suporte ilimitado ',
+            'Carteirinha digital',
+            'Carteirinha fisica',
         ],
         mostPopular: false,
     },
@@ -42,15 +43,14 @@ const tiers = [
         price: { monthly: '$9', annually: '$99' },
         description: 'Dedicated support and infrastructure for your company.',
         features: [
-            'Carteirinha digital oficial',
-            'Upload de até 1 documento',
             'Upload ilimitado de documentos',
-            'Carteirinha física',
+            'Suporte ilimitado de ',
+            'Carteirinha digital',
+            'Carteirinha fisica',
 
         ],
         mostPopular: true,
     },
-
 ]
 
 function classNames(...classes: string[]) {
