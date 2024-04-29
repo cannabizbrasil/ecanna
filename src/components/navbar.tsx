@@ -34,7 +34,7 @@ export default function NavBar() {
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
                         <Image
-                            className="h-8 w-auto"
+                            className="h-6 lg:h-8 w-auto"
                             src="/ecanna-logo-white.png"
                             width={250}
                             height={80}
