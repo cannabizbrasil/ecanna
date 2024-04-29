@@ -36,7 +36,7 @@ export default function Hero() {
                                 alt="App screenshot"
                                 width={500}
                                 height={600}
-                                className="w-[30rem] -mb-96"
+                                className="w-[22rem] lg:w-[30rem] lg:-mb-96 "
                             />
                         </div>
                     </div>
