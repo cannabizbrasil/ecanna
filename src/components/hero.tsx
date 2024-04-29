@@ -18,7 +18,7 @@ export default function Hero() {
                             O FUTURO DA SAÚDE NAS SUAS MÃOS
                         </span>
                     </div>
-                    <h1 className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-6xl">
+                    <h1 className="mt-6 text-5xl font-bold tracking-tight text-white sm:text-6xl">
                         A IDENTIDADE INTELIGENTE PARA PACIENTES CONSCIENTES.
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-white">

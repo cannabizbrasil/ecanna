@@ -25,7 +25,7 @@ export default function Cta() {
                     }}
                 />
             </div>
-            <div className="mx-auto max-w-7xl px-6 pb-12  pt-36 sm:pb-48 lg:flex lg:px-8 ">
+            <div className="mx-auto max-w-7xl px-6 pb-12 pt-24 lg:pt-36 sm:pb-48 lg:flex lg:px-8 ">
                 <div className="mx-auto max-w-4xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                     <h2 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-5xl">
                         Desbloqueie um Novo Capítulo na sua Jornada de Saúde com a CannaID
@@ -39,7 +39,7 @@ export default function Cta() {
                         <ButtonBranco href='#' target='' textobotao='COMEÇAR AGORA' />
                     </div>
                 </div>
-                <div className="mx-auto flex max-w-2xl  ">
+                <div className="mx-auto flex max-w-2xl pt-12  ">
                     <div className="">
                         <Image
                             src="/ai-generator-19.png"

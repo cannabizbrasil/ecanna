@@ -35,7 +35,7 @@ export default function Beneficios() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl lg:mx-0  lg:flex-shrink-0 lg:pt-8">
 
-          <h1 className="pb-8 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="pb-8 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             NOSSOS BENEFICIOS
           </h1>
 
