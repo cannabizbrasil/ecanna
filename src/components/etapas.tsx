@@ -66,7 +66,7 @@ export default function Etapas() {
                             height={400}
                         />
                     </div>
-                    <ButtonBranco href="#" target="" textobotao='COMEÇAR AGORA' />
+                    <ButtonBranco href="https://www.ecanna.com.br/cadastrar" target="" textobotao='COMEÇAR AGORA' />
                 </div>
             </div>
         </div >

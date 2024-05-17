@@ -55,7 +55,7 @@ export default function Beneficios() {
                 </h3>
                 <p className="text-lg leading-6 text-center  text-white pt-8 pb-10">{beneficio.description}</p>
               </div>
-                <div className="flex mx-auto justify-end -mb-16 mt-auto">  <ButtonBranco textobotao='COMEÇAR GRÁTIS' target='' href='#' />
+                <div className="flex mx-auto justify-end -mb-16 mt-auto">  <ButtonBranco textobotao='COMEÇAR GRÁTIS' target='' href='https://www.ecanna.com.br/cadastrar' />
                 </div>
               </div>
             </article>

@@ -58,7 +58,7 @@ export default function PriceB() {
                                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">/mês</span>
                                 </p>
                                 <div className="mt-4">
-                                    <ButtonBranco href="#" textobotao='ASSOCIAR' target='' />
+                                    <ButtonBranco href="https://www.ecanna.com.br/cadastrar" textobotao='ASSOCIAR' target='' />
                                 </div>
                                 <p className="mt-6 text-xs leading-5 text-gray-600">
                                     O valor cobrado será de R$ 118,80, equivalente a 12 meses de inscrição. *Esse valor pode ser parcelado.

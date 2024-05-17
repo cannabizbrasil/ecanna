@@ -25,7 +25,7 @@ export default function Hero() {
                         CannaID é a solução essencial para pacientes conscientes da cannabis medicinal. Com sua identidade e QR code seguro, você tem acesso rápido a todos os seus documentos de paciente e garante sua carteirinha oficial de paciente medicinal de cannabis.
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
-                        <ButtonVerde href="#" target='' textobotao='COMEÇAR AGORA' />
+                        <ButtonVerde href="https://www.ecanna.com.br/cadastrar" target='' textobotao='COMEÇAR AGORA' />
                     </div>
                 </div>
                 <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none">

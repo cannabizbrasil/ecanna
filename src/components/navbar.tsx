@@ -13,7 +13,7 @@ import {
 
 
 const navigations = [
-    { name: 'Menu', href: '#' },
+    { name: 'Cadastrar', href: 'https://www.ecanna.com.br/cadastrar' },
     { name: 'Menu', href: '#' },
     { name: 'Menu', href: '#' },
     { name: 'Menu', href: '#' },
@@ -32,7 +32,7 @@ export default function NavBar() {
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Your Company</span>
+                        <span className="sr-only">ECanna</span>
                         <Image
                             className="h-6 lg:h-8 w-auto"
                             src="/ecanna-logo-white.png"
@@ -45,8 +45,8 @@ export default function NavBar() {
                 <div className="flex">
                 </div>
                 <div className="flex flex-1  justify-end">
-                    <a href="#" className="text-sm font-semibold pt-1 leading-6 text-white">
-                        Log in
+                    <a href="https://www.ecanna.com.br/entrar" className="text-sm font-semibold pt-1 leading-6 text-white">
+                        Log in →
                     </a>
                     <button
                         type="button"
@@ -90,10 +90,10 @@ export default function NavBar() {
                             </div>
                             <div className="py-6 ">
                                 <a
-                                    href="#"
+                                    href="https://www.ecanna.com.br/entrar"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                                 >
-                                    Log in
+                                    Log in →
                                 </a>
                             </div>
                         </div>

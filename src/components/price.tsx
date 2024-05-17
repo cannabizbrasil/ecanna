@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { RadioGroup } from '@headlessui/react'
 import { CheckIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link'
 
 const frequencies = [
     { value: 'monthly', label: 'Mês', priceSuffix: '/mês' },
@@ -134,7 +135,7 @@ export default function Price() {
                                 ))}
                             </ul>
                             <div className="flex mx-auto justify-center pt-10 -mb-16 mt-auto">
-                                <a
+                                <Link
                                     href={tier.href}
                                     aria-describedby={tier.id}
                                     className={classNames(
@@ -147,7 +148,7 @@ export default function Price() {
                                     )}
                                 >
                                     ESCOLHER PLANO
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}

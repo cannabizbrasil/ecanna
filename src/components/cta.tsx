@@ -36,7 +36,7 @@ export default function Cta() {
                         Seus documentos de identificação de paciente de cannabis medicinal armazenadas de forma segura e sempre ao alcance de um simples toque.
                     </p>
                     <div className="pt-10">
-                        <ButtonBranco href='#' target='' textobotao='COMEÇAR AGORA' />
+                        <ButtonBranco href='https://www.ecanna.com.br/cadastrar' target='' textobotao='COMEÇAR AGORA' />
                     </div>
                 </div>
                 <div className="mx-auto flex max-w-2xl pt-12  ">
